@@ -18,3 +18,32 @@ body:hover #cursor {
     opacity: 1; 
 }
 
+ul li {
+    position: relative; 
+    padding: 10px 0; 
+    text-align: left; 
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #555; 
+    text-shadow: 3px 3px 0 #111;
+}
+
+ul li a span {
+    position: relative; 
+    font-size: 2.5em; 
+    letter-spacing: 0.05em;
+    transition: 0.25s; 
+    text-transform: uppercase; 
+}
+
+ul li:hover a span {
+    color: ghostwhite; 
+    text-shadow: 0 0 6px ghostwhite, 
+    0 0 12px ghostwhite, 
+    0 0 24px ghostwhite,
+    0 0 42px ghostwhite; 
+}
+
